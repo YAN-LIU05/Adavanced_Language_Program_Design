@@ -1,4 +1,4 @@
-/* 2352018 ÐÅ06 ÁõÑå */
+/* 2352018 ä¿¡06 åˆ˜å½¦ */
 #include<iostream>
 #include <iomanip>
 using namespace std;
@@ -7,7 +7,7 @@ int main()
 {
 	double r, h, C, S1, S2, V1, V2;
 	const double pi = 3.14159;
-	cout << "ÇëÊäÈë°ë¾¶ºÍ¸ß¶È" << endl;
+	cout << "è¯·è¾“å…¥åŠå¾„å’Œé«˜åº¦" << endl;
     cin >> r >> h;
 
 	C = pi * r * 2;
@@ -18,11 +18,11 @@ int main()
 
 	cout << setiosflags(ios::fixed) << setprecision(2);
 	cout << setiosflags(ios::left);
-	cout << setw(10) << "Ô²ÖÜ³¤" << " : " << C << endl;
-	cout << setw(10) << "Ô²Ãæ»ý" << " : " << S1 << endl;
-	cout << setw(10) << "Ô²Çò±íÃæ»ý" << " : " << S2 << endl;
-	cout << setw(10) << "Ô²ÇòÌå»ý  " << " ; " << V1 << endl;
-	cout << setw(10) << "Ô²ÖùÌå»ý  " << " : " << V2 << endl;
+	cout << setw(10) << "åœ†å‘¨é•¿" << " : " << C << endl;
+	cout << setw(10) << "åœ†é¢ç§¯" << " : " << S1 << endl;
+	cout << setw(10) << "åœ†çƒè¡¨é¢ç§¯" << " : " << S2 << endl;
+	cout << setw(10) << "åœ†çƒä½“ç§¯  " << " ; " << V1 << endl;
+	cout << setw(10) << "åœ†æŸ±ä½“ç§¯  " << " : " << V2 << endl;
 
 	return 0;
 }
